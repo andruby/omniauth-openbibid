@@ -1,6 +1,8 @@
 # Omniauth::Openbibid
 
-TODO: Write a gem description
+OmniAuth strategy from mijn.bibliotheek.be. API docs at [https://mijn.bibliotheek.be/openbibid-api.html](https://mijn.bibliotheek.be/openbibid-api.html)
+
+See [OmniAuth](https://github.com/intridea/omniauth)
 
 ## Installation
 
@@ -20,7 +22,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Usage in Rails:
+
+```ruby
+Rails.application.config.middleware.use OmniAuth::Builder do
+  provider :openbibid, ENV['OPENBIBID_KEY'], ENV['OPENBIBID_SECRET']
+end
+```
 
 ## Contributing
 
