@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Omniauth::Openbibid::VERSION
   spec.authors       = ["Andrew Fecheyr"]
   spec.email         = ["andrew@bedesign.be"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = "OmniAuth strategy for mijn.bibliotheek.be"
+  spec.description   = "OmniAuth strategy for mijn.bibliotheek.be"
+  spec.homepage      = "https://github.com/andruby/omniauth-openbibid"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
